@@ -1,0 +1,69 @@
+<html>
+
+	<head>
+		<title>GALERIA DEL COLECIONISTA</title>
+	
+
+	<link rel="stylesheet"
+		type="text/css"
+		href="bootstrap.css"
+	/>
+	
+	<link rel="stylesheet"
+		type="text/css"
+		href="styles.css"
+	/>
+	
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	
+	</head>
+	<body>
+
+		<div class="container">
+			<h1>GALERIA DEL COLECIONISTA</h1>
+				
+				<div class="row">
+					<div class="col-md-2">
+						<img class="crop-img" src="image1.jpg"/>
+							<a href="https://www.xvideos.com/models/brandi-love"><span style="background-Color: gray">
+							<u><i><strong>Brandi Love</strong></i></u></span></a>
+					</div>
+						
+					<div class="col-md-2">
+						<img class="crop-img"  src="image2.jpg"/>
+							<a href="https://www.xvideos.com/model-channels/elsa_jean"><span style="background-Color: yellow">
+							<u><i><strong>Elsa Jean</strong></i></u></span></a>
+					</div>
+						
+					<div class="col-md-2">
+						<img class="crop-img" src="image3.jpg"/>
+							<a href="https://www.xvideos.com/models/apolonia-lapiedra"><span style="background-Color: green">
+							<u><strong><i>Apolonia LaPiedra</strong></i></u></span></a>
+					</div>
+						
+					<div class="col-md-2">
+						<img class="crop-img" src="image4.jpg"/>
+							<a href="https://www.xvideos.com/models/august-ames"><span style="background-Color: orange">
+							<u><i><strong>August Ames</strong></i></u></span></a>
+					</div>
+				</div>
+					
+				<div class="row">	
+					
+					<div class="col-md-8">
+						<img id="bigImage" class="large-img" src="image1.jpg"/>
+					</div>
+					
+				</div>
+		</div>
+				
+				<script>
+					
+					$(".crop-img").click(function(){
+						$("#bigImage").attr('src',
+							$(this).attr('src'));
+					});
+					
+			</script>		
+	</body>
+</html>			
